@@ -1,0 +1,149 @@
+.square{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    background-color: red;
+    animation-name: square;
+    border-radius: 35%;
+}
+@keyframes square{
+   from {
+        left: 0;
+        top: 0;
+        background-color: blue;
+    }
+    25%{
+        border-radius: 50%;
+        left: calc(96vw - 50px);
+        top: 0;
+    }
+    50%{
+        top: calc(94vh - 50px);
+        background-color: aqua;
+        left: calc(96vw - 50px);
+        
+    }
+    80%{
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+    75%{
+        left: 0;
+        background-color: blueviolet;
+        top: calc(94vh - 50px);
+        
+        
+    }
+    83%{left: calc(54vw - 50px);
+    top: calc(64vh - 50px);
+background-color: chartreuse;}
+    86%{top: calc(87vh - 50px);
+    }
+    89%{left: calc(75vw - 50px);}
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+body{
+    width: 1000px;
+    height: 1000px;
+    background-color: black;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: body;
+}
+
+.square:nth-child(2){
+    animation-delay: 10ms;
+}
+.square:nth-child(3){
+    animation-delay: 20ms;
+}
+.square:nth-child(4){
+    animation-delay: 30ms;
+}
+.square:nth-child(5){
+    animation-delay: 40ms;
+}
+.square:nth-child(6){
+    animation-delay: 50ms;
+}
+.square:nth-child(7){
+    animation-delay: 60ms;
+}
+.square:nth-child(8){
+    animation-delay: 70ms;
+}
+.square:nth-child(9){
+    animation-delay: 80ms;
+}
+.square:nth-child(10){
+    animation-delay: 90ms;
+}
+.square:nth-child(11){
+    animation-delay: 100ms;
+}
+.square:nth-child(12){
+    animation-delay: 110ms;
+}
+.square:nth-child(13){
+    animation-delay: 120ms;
+}
+.square:nth-child(14){
+    animation-delay: 130ms;
+}
+.square:nth-child(15){
+    animation-delay: 140ms;
+}
+.square:nth-child(16){
+    animation-delay: 150ms;
+}
+.square:nth-child(17){
+    animation-delay: 160ms;
+}
+.square:nth-child(18){
+    animation-delay: 170ms;
+}
+.square:nth-child(19){
+    animation-delay: 180ms;
+}
+.square:nth-child(20){
+    animation-delay: 190ms;
+}
+.square:nth-child(21){
+    animation-delay: 200ms;
+}
+.square:nth-child(22){
+    animation-delay: 210ms;
+}
+.square:nth-child(23){
+    animation-delay: 220ms;
+}
+.square:nth-child(24){
+    animation-delay: 230ms;
+}
+.square:nth-child(25){
+    animation-delay: 240ms;
+}
+.square:nth-child(26){
+    animation-delay: 250ms;
+}
+.square:nth-child(27){
+    animation-delay: 260ms;
+}
+.square:nth-child(28){
+    animation-delay: 270ms;
+}
+.square:nth-child(29){
+    animation-delay: 280ms;
+}
+.square:nth-child(30){
+    animation-delay: 290ms;
+}
+body:active{
+    background-color: green;
+}
